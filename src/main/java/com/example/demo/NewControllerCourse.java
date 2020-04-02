@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Map;
 
 @Controller
-public class NewControllerTest {
+public class NewControllerCourse {
 
     @RequestMapping("/hi/{name}")
     public  String hiThere(Map model, @PathVariable String name){
